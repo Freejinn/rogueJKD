@@ -1,0 +1,55 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Rogue JKD Homepage</title>
+            <link rel="stylesheet" href="V1 Style.css">
+        </head>
+        <body>
+            <nav>
+                <a href="JKD Home.html">HOME</a>
+                <a href="JKD Programs.html">PROGRAMS</a>
+                <a href="JKD Instructors.html">INTRUCTORS</a>
+                <a href="JKD About.html">ABOUT</a>
+                <a href="JKD Contact.html">CONTACT</a>
+            </nav>
+            
+            <div id="logo">
+                <img src="images/logo.jpg" width="175"/>
+                </div>
+         
+            <div class="line"></div>
+            <center><h1>Mastering others is strength; mastering yourself is true power.</h1>
+                <h3><i>~ Lao Tzu ~</i></h3></center>
+            <div class="line"></div>
+            <br>
+            
+            <div id="backdrop"></div>
+
+            <div class="line"></div>
+                <center><button type="button" class="button" id="signup-btn">SIGN UP FOR A FREE PRIVATE LESSON</button></center>
+
+            <div class="modal" id="signup-modal">
+                <form action="https://formsubmit.co/noonfirerebel@gmail.com" method="POST">
+                    <div class="modal_content">
+                        <p>Sign up for a FREE 30-min private lesson. Fill out your name and tell us a bit about your training goals.</p>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" required>
+                        <label for="info">Goals, Interests, Questions</label>
+                        <div class="expandingArea">
+                        <textarea id="text-area"></textarea>                    
+                        </div>
+                    </div>
+                    <div class="modal__actions">
+                        <button id="close-btn">X</button>
+                        <button class="button" id="clear-btn">Clear</button>
+                        <button class="button" type="submit" id="submit-btn">Submit</button>
+                        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                    </div>
+                </form>
+            </div>
+            <script src="JS/V1main.js"></script>
+        </body>
+    </html>

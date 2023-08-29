@@ -1,0 +1,137 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Rogue JKD Homepage</title>
+            <link rel="stylesheet" href="V1 Style.css">
+        </head>
+        <body>
+            <nav>
+                <a href="JKD Home.html">HOME</a>
+                <a href="JKD Programs.html">PROGRAMS</a>
+                <a href="JKD Instructors.html">INTRUCTORS</a>
+                <a href="JKD About.html">ABOUT</a>
+                <a href="JKD Contact.html">CONTACT</a>
+            </nav>
+            
+            <div id="logo">
+                <img src="images/logo.jpg" width="175"/>
+                </div>
+
+            <div id="backdrop"></div>
+         
+            <div class="line"></div>
+            <center><h1>I train as many arts as possible. I'm constantly learning all the time. Once you stop being a student, you stop growing.</h1>
+                <h3><i>~ Dan Inosanto ~</i></h3></center>
+            <div class="line" id="anchor_jack"></div>
+            <br>
+            <div class="inst-body">
+                <h1>Cheif Instructor Jack O'Shiel</h1>
+                <div class="jacky">
+                    <center><div><img id="img-model" src="images/meet.JPG" alt="model" width="250px"></div></center>
+                    <div id="jack-about">
+                        <p>Jack has an extensive background in both martial arts and crisis prevention. He was a counselor for 15 years
+                        and currently teaches English courses at University of Colorado, Denver. In time between classes, he trains his wife and
+                        both of his children, writes fiction, and travels to where he can fish and surf.
+                        </p>
+                    </div>
+                </div>
+                <div id="background"> 
+                    <h4>Background</h4>
+                </div>
+                <br>
+                <span class="emphasis">USA Boxing (Governing Organization of the Olympics), Level 1 (2007-current)</span>
+                <br>
+                <span class="emphasis">Violence Prevention Courses (completed during professional career as counselor on primary therapy teams):</span>
+                <ul>
+                    <li>Nicoletti-Flater Violence (2013)</li>
+                    <li>Crisis Prevention Institute non-violence crisis intervention (2005-2013)</li>
+                    <li>Pro-ACT professional assault crisis training (2007-2008)</li>
+                    <li>Therapeutic Crisis Intervention (2003-2005)</li>
+                    <li>HWC (Handle With Care) crisis intervention (1999-2001)</li>
+                </ul>
+                <span class="emphasis">Coaching Courses:</span>
+                <ul>
+                    <li>NFHS Coaching Certification (2011-2012)</li>
+                    <li>Safe Sport training USA Boxing (2017-present)</li>
+                </ul>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="inst-body">
+                <center><h4>Advanced-Phase Instructors</h4></center>
+                <div class="line2"></div>
+                <div class="inst-group">
+                    <div class="instructor">
+                        <img id="instr-image" src="images/armbar.jpg" alt="arbar" width="200px">
+                        <p>Mike Romabiles (San Diego, CA)</p>
+                    </div>
+                    <div class="instructor">
+                        <img id="instr-image" src="images/armbar.jpg" alt="arbar" width="200px">
+                        <p>Rick Rogers (Wilkes-Barre, PA)</p>
+                    </div>
+                </div>
+                <div class="line2"></div>
+                <center><h4>Intermidiate-Phase Instructors</h4></center>
+                <div class="line2"></div>
+                <div class="inst-group">
+                    <div class="instructor">
+                        <img id="instr-image" src="images/armbar.jpg" alt="arbar" width="200px">
+                        <p>Seth Mutschler (Idaho/Eastern Oregon)</p>
+                    </div>
+                </div>
+                <div class="line2"></div>
+                <center><h4>Apprentice Instructors</h4></center>
+                <div class="line2"></div>
+                <div class="inst-group">
+                    <div class="instructor">
+                        <img id="instr-image" src="images/armbar.jpg" alt="arbar" width="200px">
+                        <p>Ben Whitney (Denver, CO)</p>
+                    </div>
+                    <div class="instructor">
+                        <img id="instr-image" src="images/armbar.jpg" alt="arbar" width="200px">
+                        <p>Walker Wilder (Burlington, VT)</p>
+                    </div>
+                    <div class="instructor">
+                        <img id="instr-image" src="images/armbar.jpg" alt="arbar" width="200px">
+                        <p>Jeff Baines (Arvada, CO)</p>
+                    </div>
+                    <div class="instructor">
+                        <img id="instr-image" src="images/armbar.jpg" alt="arbar" width="200px">
+                        <p>Rachel Mahloch (Boulder, CO)</p>
+                    </div>
+                    <div class="instructor">
+                        <img id="instr-image" src="images/armbar.jpg" alt="arbar" width="200px">
+                        <p>Ryan Smith (Golden, CO)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="line"></div>
+                <center><button type="button" class="button" id="signup-btn">SIGN UP FOR A FREE PRIVATE LESSON</button></center>
+
+            <div class="modal" id="signup-modal">
+                <form action="https://formsubmit.co/noonfirerebel@gmail.com" method="POST">
+                    <div class="modal_content">
+                        <p>Sign up for a FREE 30-min private lesson. Fill out your name and tell us a bit about your training goals.</p>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" required>
+                        <label for="info">Goals, Interests, Questions</label>
+                        <div class="expandingArea">
+                        <textarea id="text-area"></textarea>                    
+                        </div>
+                    </div>
+                    <div class="modal__actions">
+                        <button id="close-btn">X</button>
+                        <button class="button" id="clear-btn">Clear</button>
+                        <button class="button" type="submit" id="submit-btn">Submit</button>
+                        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                    </div>
+                </form>
+            </div>
+            <script src="JS/V1main.js"></script>
+        </body>
+    </html>
+    

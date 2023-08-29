@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+  font-family: Raleway, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(193, 190, 190);
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(70, 69, 69);
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+h2 {
+  background-color: rgb(244, 242, 238);
+}
+
+h3 {
+  color: rgb(70, 69, 69);
+}
+
+h4 {
+  margin: 5px;
+  font-size: 24;
+}
+
+h5 {
+  color: rgb(219, 31, 17);
+  margin: 0;
+  font-size: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(70, 69, 69);
+}
+
+.emphasis {
+  font-weight: 700;
+  color: rgb(70, 69, 69);
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  margin: auto;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background: rgb(16, 16, 16);
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+nav a {
+  display: flex;
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(227, 222, 222);
+  margin: auto;
+}
+
+nav a[aria-current='page'] {
+  text-decoration: underline solid rgb(219, 31, 17) 2px;
+  text-underline-offset: 0.5rem;
+  color: rgb(219, 31, 17);
+}
+
+a {
+  color: #383838;
+  font-weight: bold;
+}
+
+a:hover {
+  font-weight: bold;
+  color: rgb(219, 31, 17);
+}
+
+#logo {
+  padding: 20px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.line {
+  border-bottom: 3px solid white;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.line2 {
+  border-bottom: 3px solid gray;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.body {
+  width: 90%;
+  padding-left: 10px;
+  margin: auto;
+  font-size: 22px;
+  display: flex;
+}
+
+.inst-body {
+  width: 90%;
+  margin: auto;
+  font-size: 22px;
+  display: block;
+}
+
+.inst-body h1 {
+  color: black;
+}
+
+.jacky {
+  background-color: rgb(109, 106, 106);
+  display: flex;
+  margin: auto;
+  width: 100%;
+}
+
+.inst-group {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.instructor {
+  margin: auto;
+  display: block;
+  padding: 10px;
+}
+
+#mike {
+  text-align: center;
+}
+
+.inst-body #background {
+  color: rgb(219, 31, 17);
+}
+
+.body > * {
+  flex: 1 1 0;
+}
+
+.body #adult-pro {
+  margin: 10px;
+  padding: 10px;
+}
+
+.body #kid-pro {
+  margin: 10px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+#kidpic {
+  border: 5px solid black;
+}
+
+@media (max-width: 680px) {
+  nav a {
+    font-size: 14px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .body,
+  .body2,
+  .jacky {
+    flex-direction: column;
+  }
+}
+
+.slideshow {
+  text-align: center;
+  border: 3px, solid, black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.image-slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.25;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.body2 {
+  color: white;
+  background-color: rgb(109, 106, 106);
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+  font-size: 20px;
+  display: flex;
+}
+
+.body2 h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.body2 h3 {
+  color: white;
+}
+
+.body2 a {
+  color: white;
+}
+
+.button {
+  padding: 15px;
+  font-size: 16px;
+  color: rgb(11, 11, 11);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+}
+
+button:hover {
+  font-weight: bold;
+  color: rgb(219, 17, 17);
+}
+
+.meet-jack {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+
+#jack-about {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 0;
+}
+
+#meet-img {
+  margin-right: 20px;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+#img-model {
+  border: 5px solid black;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+#meet-pic {
+  border-radius: 50%;
+  border: 5px solid black;
+}
+
+.list {
+  text-align: left;
+  font-size: smaller;
+}
+
+#backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 10;
+  pointer-events: none;
+  display: none;
+}
+
+#backdrop.visible {
+  display: block;
+  pointer-events: all;
+}
+
+#signup {
+  clear: both;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  clear: both;
+}
+
+label {
+  font-weight: bold;
+  margin: 0.5rem 0;
+  padding: 10px;
+  color: #464646;
+}
+
+.modal {
+  position: fixed;
+  z-index: 100;
+  background: white;
+  border-radius: 10px;
+  width: 80%;
+  top: 10vh;
+  left: 10%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  display: none;
+}
+
+.modal.visible {
+  display: block;
+  animation: fade-slide-in 0.3s ease-out forwards;
+}
+
+.modal .modal__name {
+  margin: 0;
+  padding: 2rem;
+  border-bottom: 1px solid #00329e;
+  background: #00329e;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.modal .modal_content {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal .modal__actions {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal #close-btn {
+  position: absolute;
+  right: 10;
+  top: 5;
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+.modal #clear-btn {
+  color: red;
+}
+
+.modal #submit-btn:hover {
+  color: black;
+  background-color: #9cf59c;
+}
+.modal #clear-btn:hover {
+  background-color: rgb(242, 48, 48);
+  color: black;
+}
+
+input {
+  font: inherit;
+  border: 1px solid #ccc;
+  padding: 0.4rem 0.2rem;
+  color: #383838;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  background: #d2f1d2;
+}
+
+textarea {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+}
+
+.expandingArea > textarea:focus {
+  outline: none;
+  background: #d2f1d2;
+}
+
+.expandingArea {
+  position: relative;
+  border: 1px solid #ccc;
+  background: white;
+}
+
+.expandingArea > textarea {
+  padding: 5px;
+  background: transparent;
+  font: inherit;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  width: 100%;
+  resize: vertical;
+}
+
+.expandingArea.active > textarea {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: 40rem;
+    left: calc(50% - 20rem);
+  }
+}

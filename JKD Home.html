@@ -1,0 +1,105 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Rogue JKD Homepage</title>
+            <link rel="stylesheet" href="V1 Style.css">
+        </head>
+        <body>
+            <nav>
+                <a href="JKD Home.html">HOME</a>
+                <a href="JKD Programs.html">PROGRAMS</a>
+                <a href="JKD Instructors.html">INTRUCTORS</a>
+                <a href="JKD About.html">ABOUT</a>
+                <a href="JKD Contact.html">CONTACT</a>
+            </nav>
+            
+            <div id="logo">
+                <img src="images/logo.jpg" width="175"/>
+                </div>
+         
+            <div class="line"></div>
+            <center><h1>Complete Martial Arts Training for You, Your Family, Your Community</h1></center>
+            <div class="line"></div>
+            
+            <div class="body">
+                <div id="backdrop"></div>
+                <div id = throw-text>
+                    <p><h3>Experience the confidence that comes from learning the most effective martial arts.</h3> 
+                    We offer adult beginner through advanced MMA adapted for self-protection, fitness, and competition. 
+                    <br><br>For children we focus on bully de-escalation, defense, athletics, and mental focus.</p>
+                    <p>Our qualified and supportive instructors will guide you through gradual, self-paced progressions to help you develop 
+                    the five necessary dimensions of your martial arts: 
+                    <span class="emphasis">technique, tactic, athleticism, emotional content, and situational awareness.</span></p>
+                </div>
+                <div class="slideshow">
+                    <div class="image fade">
+                        <img src="images/armbar.jpg" alt="armbar" height="350px">
+                    </div>
+                    <div class="image fade">
+                        <img src="images/kidsClass.jpg" alt="kid class" height="350px">
+                    </div>
+                    <div class="image fade">
+                        <img src="images/lesson1.jpg" alt="lesson" height="350px">
+                    </div>
+                    <div class="image fade">
+                        <img src="images/punch1.jpg" alt="punch" height="350px">
+                    </div>
+                    <div class="image fade">
+                        <img src="images/kidClass2.JPG" alt="kid class2" height="350px">
+                    </div>
+                    <div class="image fade">
+                        <img src="images/knife.jpg" alt="knife" height="350px">
+                    </div>
+                </div> 
+            </div>
+
+            <div class="line"></div>
+            <br>
+
+            <div class="body2">
+                <div id="meet-img">
+                    <img id="meet-pic" src="images/meet.JPG"
+                    width="300px"/></div>
+                <div id="meet-jack">
+                    <h1>MEET JACK</h1>
+                    <p>Cheif instructor Jack has over 40 years of martial arts experience including:
+                        <li>Jeet Kune Do</li>
+                        <li>boxing</li> 
+                        <li>Muay Thai</li> 
+                        <li>Jiu-Jitsu</li> 
+                        <li>Kali</li> 
+                        <li>submission grappling</li> <br>
+                        He emphasizes solutions to real-world problems, beginning with concepts in violence prevention and descalation. </p>
+                        <h4><a href="JKD Instructors.html#anchor_jack">See full bio and certs</a></h4>
+                </div> 
+            </div>
+
+            <br>
+            <div class="line"></div>
+                <center><button type="button" class="button" id="signup-btn">SIGN UP FOR A FREE PRIVATE LESSON</button></center>
+
+            <div class="modal" id="signup-modal">
+                <form action="https://formsubmit.co/noonfirerebel@gmail.com" method="POST">
+                    <div class="modal_content">
+                        <p>Sign up for a FREE 30-min private lesson. Fill out your name and tell us a bit about your training goals.</p>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" required>
+                        <label for="info">Goals, Interests, Questions</label>
+                        <div class="expandingArea">
+                        <textarea id="text-area"></textarea>                    
+                        </div>
+                    </div>
+                    <div class="modal__actions">
+                        <button id="close-btn">X</button>
+                        <button class="button" id="clear-btn">Clear</button>
+                        <button class="button" type="submit" id="submit-btn">Submit</button>
+                        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                    </div>
+                </form>
+            </div>
+            <script src="JS/V1main.js"></script>
+        </body>
+    </html>

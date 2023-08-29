@@ -1,0 +1,119 @@
+<DOCTYPE html>
+    <head>
+        <title>Rogue JKD Programs</title>
+        <link rel="stylesheet" href="V1 Style.css">
+    </head>
+    <body>
+        <nav>
+            <a href="JKD Home.html">HOME</a>
+            <a href="JKD Programs.html">PROGRAMS</a>
+            <a href="JKD Instructors.html">INTRUCTORS</a>
+            <a href="JKD About.html">ABOUT</a>
+            <a href="JKD Contact.html">CONTACT</a>
+        </nav>
+        
+        <div id="logo">
+            <img src="images/logo.jpg" width="175"/>
+            </div>
+        <div id="backdrop"></div>     
+        
+        <div class="line"></div>
+        <center><h1>There are no limits. There are only plateaus, and you must not stay there. 
+            You must go beyond them. </h1>
+            <h3><i>~ Bruce Lee ~</i></h3></center>
+        <div class="line"></div>
+
+        <div class="body">
+            <div id="adult-pro">
+                   <center> <img src="images/throw.jpeg" alt="throw" width="200px">
+                    <img src="images/class.JPG" alt="class" width="200px">
+                <h4>ADULT PROGRAM</h4>
+                <h5>NO LIMITS - NO NONSENSE</h5></center>
+                <p>
+                    Our adult (and mature teen) program meets you at your current fitness 
+                    level and martial art skill. Our classes range from beginner to expert 
+                    and provide the opportunity to increase your ability in five areas
+                    of competence: <span class="emphasis">technique, tactic, athleticism, 
+                    emotional content, and situational awareness.</span>
+                    <br><br>
+                    Classes are organized according to 10 student levels and five phases:
+                    <br>
+                    <h5>PHASE 1: Levels 1-3</h5> <span class="emphasis">Evidence-based self-defense</span>
+                     - movement simplicity, knowledge of vulnerable targets,
+                    and decision making under pressure. 
+                    <br><br>
+                    <h5>PHASE 2: Levels 2-5</h5> <span class="emphasis">Martial Sport</span> 
+                    - increase of fitness and athleticism, effortless transitions between techniques and ranges.
+                    <br><br>
+                    <h5>PHASE 3:Levels 5-6</h5> <span class="emphasis">Combat Curriculm</span> 
+                    - moving beyond self-defense and contact sport, learning to employ weapons, developing deeper levels
+                    intensity, and confronting emotional content.
+                    <br><br>
+                    <h5>PHASE 4: Levels 7-8</h5> <span class="emphasis">Martial Science</span> 
+                    - advanced understanding of martial arts and creative application of universal principles.
+                    <br><br>
+                    <h5>Phase 5: Levels 9-10</h5> <span class="emphasis">Personal Martial Art</span> 
+                    - creative expression of your unique self. Refinement of your JKD identity.
+                </p>
+            </div>
+
+            <div id="kid-pro">
+                <center><img id="kidpic" src="images/kidsClass.jpg" alt="kidclass" width="400px">
+                <h4>YOUTH PROGRAM</h4>
+                <h5>CONTROL-FOCUS-FUN</h5></center>
+                <p>Our youth program is divided into three sections:
+                    <ul><span class="emphasis">
+                        <li>Cat Kids (ages 5-9)</li>
+                        <br>
+                        <li>Junior Panthers (ages 9-12)</li>
+                        <br>
+                        <li>Panthers (ages 12-15)</li>
+                    </span></ul>
+                    The youth program takes students from white belt through junior black belt. 
+                    In the first two stages of learning, our classes emphasize:
+                    <ol><h5>
+                        <li>strong boudaries against bully behavior</li>
+                        <li>respect for classmates</li>
+                        <li>training partner saftey</li>
+                        <li>mental focus</li>
+                        <li>sustained attention</li>
+                        <li>athletic work-ethic</li>
+                        <li>growth mindset</li>
+                    </h5></ol> 
+                    As students becomes more confident in the basic movements and skills of 
+                    the martial arts, we teach them to verbally, and if necessary, physically 
+                    stand against bully aggression and use their self-assurance to take on positive 
+                    leadership roles in the dojo, in school, and in their community.
+            </div>
+        </div>
+
+        <br>
+            <div class="line"></div>
+                <center><button type="button" class="button" id="signup-btn">
+                    SIGN UP FOR A FREE PRIVATE LESSON</button></center>
+
+                <div class="modal" id="signup-modal">
+                    <form action="https://formsubmit.co/noonfirerebel@gmail.com" method="POST">
+                        <div class="modal_content">
+                            <p>Sign up for a FREE 30-min private lesson. 
+                                Fill out your name and tell us a bit about your training goals.</p>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                            <label for="email">Email</label>
+                            <input type="text" id="email" required>
+                            <label for="info">Goals, Interests, Questions</label>
+                            <div class="expandingArea">
+                            <textarea id="text-area"></textarea>                    
+                            </div>
+                        </div>
+                        <div class="modal__actions">
+                            <button id="close-btn">X</button>
+                            <button class="button" id="clear-btn">Clear</button>
+                            <button class="button" type="submit" id="submit-btn">Submit</button>
+                            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                        </div>
+                    </form>
+                </div>
+            <script src="JS/V1main.js"></script>
+    </body>
+</DOCTYPE>
