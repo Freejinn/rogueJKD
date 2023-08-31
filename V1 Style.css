@@ -122,6 +122,10 @@ a:hover {
   display: flex;
 }
 
+.body #different {
+  color: rgb(219, 31, 17);
+}
+
 .inst-body {
   width: 90%;
   margin: auto;
