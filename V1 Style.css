@@ -56,7 +56,7 @@ nav {
   margin: auto;
   flex-direction: row;
   text-align: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   width: 100%;
   background: rgb(16, 16, 16);
   top: 0;
