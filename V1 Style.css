@@ -122,9 +122,13 @@ a:hover {
   display: flex;
 }
 
-.body #different {
+#different {
   color: rgb(219, 31, 17);
 }
+
+#about-img {
+  border: 5px solid black;
+  }
 
 .inst-body {
   width: 90%;
@@ -201,7 +205,6 @@ a:hover {
 
 .slideshow {
   text-align: center;
-  border: 3px, solid, black;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -215,7 +218,8 @@ a:hover {
 
 .fade {
   animation-name: fade;
-  animation-duration: 3s;
+  animation-duration: 2s;
+  border: 5px solid black;
 }
 
 @keyframes fade {
